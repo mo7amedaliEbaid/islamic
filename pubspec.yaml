@@ -1,0 +1,126 @@
+name: islamic
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_svg:
+  build_runner:
+  dartz:
+  shared_preferences:
+  get_it:
+  easy_localization:
+  flutter_phoenix:
+  flutter_native_splash:
+  flutter_bloc:
+  equatable:
+  flutter_screenutil:
+  conditional_builder_null_safety:
+  json_serializable:
+  json_annotation:
+  floor:
+  floor_generator:
+  retrofit:
+  retrofit_generator:
+  dio:
+  pretty_dio_logger:
+  internet_connection_checker:
+  location:
+  geocoding:
+  wakelock:
+  url_launcher:
+  intl:
+  google_fonts:
+  sqflite:
+
+
+flutter_native_splash:
+
+  color: "#305C47"
+
+  image: assets/images/splash.png
+
+
+  branding: assets/images/my-logo.png
+
+
+  color_dark: "#133D2F"
+  image_dark: assets/images/splash.png
+  branding_dark: assets/images/my-logo.png
+
+
+  android_12:
+
+    image: assets/images/splash.png
+
+    color: "#305C47"
+
+    icon_background_color: "#305C47"
+
+    branding: assets/images/my-logo.png
+
+
+    image_dark: assets/images/splash.png
+    color_dark: "#133D2F"
+    icon_background_color_dark: "#133D2F"
+    branding_dark: assets/images/my-logo.png
+
+
+  fullscreen: true
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/images/quran/
+    - assets/json/
+    - assets/translations/
+
+
+  fonts:
+    - family: ElMessiri
+      fonts:
+        - asset: assets/fonts/ElMessiri-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/ElMessiri-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/ElMessiri-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/ElMessiri-Regular.ttf
+          weight: 400
+    - family: UthmanTN
+      fonts:
+        - asset: assets/fonts/UthmanTNB.ttf
+          weight: 700
+        - asset: assets/fonts/UthmanTN.ttf
+          weight: 400
+    - family: me_quran
+      fonts:
+        - asset: assets/fonts/me_quran.ttf
+    - family: Hafs
+      fonts:
+        - asset: assets/fonts/Hafs.ttf
