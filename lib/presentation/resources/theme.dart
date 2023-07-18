@@ -31,8 +31,6 @@ extension ThemeTypeExtension on ThemeType {
 ThemeData getApplicationLightTheme() {
   return ThemeData(
     useMaterial3: true,
-
-    //colors
     primaryColor: ColorManager.lightPrimary,
     secondaryHeaderColor: ColorManager.white,
     scaffoldBackgroundColor: ColorManager.lightBackground,
@@ -55,22 +53,17 @@ ThemeData getApplicationLightTheme() {
       surface: ColorManager.lightPrimary,
       onSurface: ColorManager.lightSecondary,
     ),
-
-    //cardView theme
     cardTheme: CardTheme(
       color: ColorManager.white,
       shadowColor: ColorManager.lightSecondary,
       elevation: AppSize.s4.r,
     ),
-
-    // appBarTheme
     appBarTheme: AppBarTheme(
       color: ColorManager.lightPrimary,
       centerTitle: true,
       elevation: AppSize.s4.r,
       shadowColor: ColorManager.lightSecondary,
       titleTextStyle: TextStyle(
-        // fontSize: FontSize.s24,
         fontFamily: FontConstants.meQuranFontFamily,
         fontWeight: FontWeightsManager.medium,
         color: ColorManager.gold,
@@ -84,7 +77,6 @@ ThemeData getApplicationLightTheme() {
 
     iconTheme: IconThemeData(color: ColorManager.black, size: AppSize.s24.r),
 
-    //button theme
     buttonTheme: const ButtonThemeData(
       shape: StadiumBorder(),
       buttonColor: ColorManager.lightPrimary,
@@ -92,7 +84,6 @@ ThemeData getApplicationLightTheme() {
       splashColor: ColorManager.gold,
     ),
 
-    //elevated button theme
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: ColorManager.lightPrimary,
@@ -105,10 +96,7 @@ ThemeData getApplicationLightTheme() {
         textStyle: getSemiBoldStyle(fontSize: FontSize.s14.r),
       ),
     ),
-
-    //text theme
     textTheme: TextTheme(
-      //Display
       displayLarge:
           getBoldStyle(fontSize: FontSize.s32, color: ColorManager.gold),
       displayMedium:

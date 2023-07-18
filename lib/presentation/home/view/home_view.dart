@@ -35,8 +35,6 @@ class HomeView extends StatelessWidget {
           bool darkMode = cubit.darkModeOn(context);
           var quranCubit = QuranCubit.get(context);
           List<QuranModel> quranList = quranCubit.quranData;
-
-          // cubit.isThereABookMarked();
           int currentIndex = cubit.currentIndex;
           return Scaffold(
             floatingActionButton: isThereABookMarkedPage == true &&
@@ -111,7 +109,6 @@ class HomeView extends StatelessWidget {
               unselectedIconTheme: IconThemeData(
                   color: Theme.of(context).unselectedWidgetColor,
                   size: AppSize.s20.r),
-              // ColorManager.darkGrey,
               showSelectedLabels: true,
               showUnselectedLabels: true,
               enableFeedback: true,
@@ -157,7 +154,6 @@ class HomeView extends StatelessWidget {
                             : Theme.of(context).unselectedWidgetColor,
                         BlendMode.srcIn),
                   ),
-                  // const FaIcon(FontAwesomeIcons.mosque),
                   label: AppStrings.prayerTimes.tr(),
                 ),
                 BottomNavigationBarItem(

@@ -35,40 +35,31 @@ import 'app_prefs.dart';
 final instance = GetIt.instance;
 
 Future initAppModule() async {
-  // app module is a module where we put all generic dependencies.
-  //shared prefs instance
+
   final sharedPrefs = await SharedPreferences.getInstance();
   instance.registerLazySingleton<SharedPreferences>(() => sharedPrefs);
 
-  //app prefs instance
   instance.registerLazySingleton<AppPreferences>(() => AppPreferences());
 
-  //network info instance
   instance.registerLazySingleton<InternetConnectionChecker>(
       () => InternetConnectionChecker());
   instance.registerLazySingleton<NetworkInfo>(() => NetworkInfoImpl());
 
-  //dio factory instance
   instance.registerLazySingleton<DioFactory>(() => DioFactory());
 
-  //app service client instance
   Dio dio = await instance<DioFactory>().getDio();
   instance.registerLazySingleton<PrayerTimingsServiceClient>(
       () => PrayerTimingsServiceClient(dio));
 
-  //Remote Data Source
   instance
       .registerLazySingleton<RemoteDataSource>(() => RemoteDataSourceImpl());
 
-  //Local Data Source
   instance.registerLazySingleton<LocalDataSource>(() => LocalDataSourceImpl());
 
-  //Database instance
   final database =
       await $FloorAppDatabase.databaseBuilder('app_database.db').build();
   instance.registerLazySingleton<AppDatabase>(() => database);
 
-  //BLoC
   instance.registerFactory<HomeCubit>(() => HomeCubit());
   instance.registerFactory<QuranCubit>(() => QuranCubit());
   instance.registerFactory<HadithCubit>(() => HadithCubit());
@@ -76,24 +67,18 @@ Future initAppModule() async {
   instance.registerFactory<AdhkarCubit>(() => AdhkarCubit());
   instance.registerFactory<CustomAdhkarCubit>(() => CustomAdhkarCubit());
 
-  //Repository
   instance.registerLazySingleton<Repository>(() => RepositoryImpl());
 
-  //Page Controller
   instance.registerFactory<PageController>(() => PageController());
 
-  //Text Editing Controller
   instance
       .registerFactory<TextEditingController>(() => TextEditingController());
 
-  //Form Key
   instance.registerFactory<GlobalKey<FormState>>(() => GlobalKey<FormState>());
 
-  //Scaffold Key
   instance.registerFactory<GlobalKey<ScaffoldState>>(
       () => GlobalKey<ScaffoldState>());
 
-  //Search Controller
   instance.registerFactory<SearchController>(() => SearchController());
 }
 

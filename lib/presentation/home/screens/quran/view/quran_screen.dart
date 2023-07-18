@@ -26,17 +26,10 @@ class QuranScreen extends StatelessWidget {
         QuranCubit cubit = QuranCubit.get(context);
         List<QuranModel> quranList = cubit.quranData;
 
-        //Get Current App Locale
         final currentLocale = context.locale;
-
-        //Check if current app language is English
         bool isEnglish =
             currentLocale.languageCode == LanguageType.english.getValue();
 
-        // if (state is QuranGetDataLoadingState) {
-        //   return const Center(
-        //       child: CircularProgressIndicator(color: ColorManager.gold));
-        // } else {
         return ConditionalBuilder(
           condition: quranList.isNotEmpty,
           builder: (BuildContext context) {
@@ -88,83 +81,6 @@ class QuranScreen extends StatelessWidget {
           },
         );
 
-        // if (cubit.isThereABookMarkedPage)
-        //   return Scaffold(
-        //   // if (cubit.isThereABookMarkedPage)
-        //     floatingActionButton: isThereABookMarkedPage ?
-        //   FloatingActionButton(
-        //       onPressed: () {
-        //         Navigator.pushNamed(
-        //           context,
-        //           Routes.testRoute,
-        //           arguments: {
-        //             'quranList': quranList,
-        //             'pageNo': cubit.getBookMarkPage(),
-        //           },
-        //         );
-        //       },
-        //       backgroundColor:
-        //           // ColorManager.lightPrimary,
-        //           ColorManager.darkSecondary,
-        //       child: const Icon(
-        //         Icons.bookmark,
-        //         color: ColorManager.gold,
-        //       ),
-        //   ) : Container(),
-        //     // ),
-        //   // ),
-        //     // appBar: AppBar(
-        //     //   elevation: Constants.zero.toDouble(),
-        //     //   backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-        //     //   leading: FloatingActionButton(
-        //     //     onPressed: () {
-        //     //       Navigator.pushNamed(
-        //     //         context,
-        //     //         Routes.testRoute,
-        //     //         arguments: {
-        //     //           'quranList': state.quranList,
-        //     //           'pageNo': cubit.getBookMarkPage(),
-        //     //         },
-        //     //       );
-        //     //     },
-        //     //     backgroundColor:
-        //     //         // ColorManager.lightPrimary,
-        //     //         ColorManager.darkSecondary,
-        //     //     child: const Icon(
-        //     //       Icons.bookmark,
-        //     //       color: ColorManager.gold,
-        //     //     ),
-        //     //   ),
-        //     // ),
-        //     body: ListView.separated(
-        //       physics: const BouncingScrollPhysics(),
-        //       itemBuilder: (context, index) => _surahsIndexItem(
-        //           surahId: (index + 1).toString().tr(),
-        //           surahName: quranList[index].name,
-        //           englishSurahName: quranList[index].englishName,
-        //           pageNo: quranList[index].ayahs[0].page,
-        //           quranList: quranList,
-        //           isEnglish: isEnglish,
-        //           context: context),
-        //       separatorBuilder: (context, index) => getSeparator(context),
-        //       itemCount: quranList.length,
-        //     ),
-        //   );
-
-        // return ListView.separated(
-        //   physics: const BouncingScrollPhysics(),
-        //   itemBuilder: (context, index) => _surahsIndexItem(
-        //       surahId: (index + 1).toString().tr(),
-        //       surahName: state.quranList[index].name,
-        //       englishSurahName: state.quranList[index].englishName,
-        //       pageNo: state.quranList[index].ayahs[0].page,
-        //       quranList: state.quranList,
-        //       isEnglish: isEnglish,
-        //       context: context),
-        //   separatorBuilder: (context, index) => getSeparator(context),
-        //   itemCount: state.quranList.length,
-        // );
-        // }
       },
     );
   }

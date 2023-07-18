@@ -15,15 +15,10 @@ import '../presentation/resources/routes_manager.dart';
 import '../presentation/resources/theme.dart';
 
 class MyApp extends StatefulWidget {
-  // const MyApp({Key? key}) : super(key: key);
-
-  //named constructor
   const MyApp._internal();
 
-  //singleton
   static const MyApp _instance = MyApp._internal();
 
-  //factory
   factory MyApp() => _instance;
 
   @override

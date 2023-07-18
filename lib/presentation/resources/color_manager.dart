@@ -9,14 +9,14 @@ class ColorManager {
   static const Color error = Color(0xffe61f34); // red color
 
   //Light Theme Colors
-  static const Color lightBackground = Color(0xffF8EFDF);
-  static const Color lightPrimary = Color(0xff133D2F);
-  static const Color lightSecondary = Color(0xff5B886D);
-  static const Color lightGrey = Color(0xff707070);
+  static const Color lightBackground = Color(0xffe9f3ec);
+  static const Color lightPrimary = Color(0xffb4b08a);
+  static const Color lightSecondary = Color(0xffdaf5f1);
+  static const Color lightGrey = Color(0xff171414);
 
   //Dark Theme Colors
-  static const Color darkSecondary = Color(0xffF8EFDF);
-  static const Color darkBackground = Color(0xff133D2F);
-  static const Color darkPrimary = Color(0xff324431);
+  static const Color darkSecondary = Color(0xff4f4c48);
+  static const Color darkBackground = Color(0xff1b0672);
+  static const Color darkPrimary = Color(0xff730917);
   static const Color darkGrey = Color(0xff9E9E9E);
 }
