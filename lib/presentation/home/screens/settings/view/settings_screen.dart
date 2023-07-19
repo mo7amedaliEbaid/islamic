@@ -67,7 +67,6 @@ class SettingsScreen extends StatelessWidget {
                   }
                 }),
                 inactiveTrackColor: ColorManager.lightBackground,
-                // inactiveThumbColor: ColorManager.black,
                 thumbColor: MaterialStateColor.resolveWith((states) {
                   if (states.contains(MaterialState.selected)) {
                     return ColorManager.lightPrimary;
@@ -88,32 +87,10 @@ class SettingsScreen extends StatelessWidget {
             getSeparator(context),
             _settingIndexItem(
               icon: Icons.star_border,
-              settingName: AppStrings.rateTheApp.tr(),
+              settingName: AppStrings.developer.tr(),
               trailing: null,
               onTap: () async {
-                await launchUrl(getUri(""),
-                    mode: LaunchMode.externalApplication);
-              },
-              context: context,
-            ),
-            getSeparator(context),
-            _settingIndexItem(
-              icon: Icons.add,
-              settingName: AppStrings.followUs.tr(),
-              trailing: null,
-              onTap: () async {
-                await launchUrl(getUri(""),
-                    mode: LaunchMode.externalApplication);
-              },
-              context: context,
-            ),
-            getSeparator(context),
-            _settingIndexItem(
-              icon: Icons.monetization_on_outlined,
-              settingName: AppStrings.donation.tr(),
-              trailing: null,
-              onTap: () async {
-                await launchUrl(getUri(""),
+                await launchUrl(getUri("https://github.com/mo7amedaliEbaid/islamic"),
                     mode: LaunchMode.externalApplication);
               },
               context: context,

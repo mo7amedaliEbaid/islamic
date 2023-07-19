@@ -39,7 +39,6 @@ class CustomSearch extends SearchDelegate<QuranSearchModel?> {
 
   @override
   ThemeData appBarTheme(BuildContext context) {
-    // Customize the style of the search bar
     final ThemeData theme = Theme.of(context);
     return theme.copyWith(
       appBarTheme: AppBarTheme(

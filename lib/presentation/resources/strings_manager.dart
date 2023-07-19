@@ -46,12 +46,9 @@ class AppStrings {
   static const String changeAppLanguage = "change_app_language";
   static const String changeAppLanguageIcon = "change_app_language_icon";
   static const String changeAppTheme = "change_app_theme";
-  static const String rateTheApp = "rate_the_app";
-  static const String followUs = "follow_us";
-  static const String donation = "donation";
+  static const String developer = "developer";
   static const String profile = "profile";
 
-  //Hadiths titles
   static const List<String> hadithsTitles = [
     "hadith_1",
     "hadith_2",
