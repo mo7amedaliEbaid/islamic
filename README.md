@@ -2,7 +2,7 @@
 This is a flutter Islamic App with Complete Quran, Prayer time Api, Hadith and Azkar.
 
 # التطبيق الاسلامى
-هذا التطبيق الاسلامى يحتوى على القران كاملا،الاحاديث الاربعون النووية،مواقيت الصلاة،الاذكار و الادعية. 
+هذا التطبيق الاسلامى يحتوى على القران كاملا،الاحاديث الاربعون النووية،مواقيت الصلاة،الاذكار،الادعية و اضافات اخرى. 
 
 ## Architecture
 ✔️ Clean Architecture
@@ -21,3 +21,41 @@ This is a flutter Islamic App with Complete Quran, Prayer time Api, Hadith and A
 ✔️ Multiple themes <br />
 ✔️ Add bookmarks <br />
 ✔️ Add Azkar <br />
+
+## Dependencies
+flutter_svg:        
+build_runner:       
+dartz:      
+shared_preferences:     
+get_it:     
+easy_localization:      
+flutter_phoenix:        
+flutter_native_splash:      
+flutter_bloc:       
+equatable:      
+flutter_screenutil:     
+conditional_builder_null_safety:        
+json_serializable:      
+json_annotation:        
+floor:      
+floor_generator:        
+retrofit:       
+retrofit_generator:     
+dio:        
+pretty_dio_logger:      
+internet_connection_checker:        
+location:       
+geocoding:      
+wakelock:       
+url_launcher:       
+intl:       
+google_fonts:       
+sqflite:        
+
+## Screen Shots
+
+<p float="left">
+  
+</p>
+
+For more screen shots https://github.com/mo7amedaliEbaid/beautify/blob/94142fc1629cab28c32868817d1517add2f2e40b/beautify_screenshots 
