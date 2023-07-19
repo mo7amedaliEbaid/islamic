@@ -55,7 +55,14 @@ sqflite:
 ## Screen Shots
 
 <p float="left">
-  
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/hadithlight.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/hadithread.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/prayertimedark.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/quranlight.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/readquran1.jpg" width="170" />
+   <img src="**https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/search1.jpg**" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/haditheng.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/azkar1.jpg" width="170" />
 </p>
 
-For more screen shots https://github.com/mo7amedaliEbaid/beautify/blob/94142fc1629cab28c32868817d1517add2f2e40b/beautify_screenshots 
+For more screen shots https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots
