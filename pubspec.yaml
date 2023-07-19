@@ -22,7 +22,6 @@ dependencies:
   get_it:
   easy_localization:
   flutter_phoenix:
-  flutter_native_splash:
   flutter_bloc:
   equatable:
   flutter_screenutil:
@@ -45,39 +44,6 @@ dependencies:
   sqflite:
 
 
-flutter_native_splash:
-
-  color: "#305C47"
-
-  image: assets/images/splash.png
-
-
-  branding: assets/images/my-logo.png
-
-
-  color_dark: "#133D2F"
-  image_dark: assets/images/splash.png
-  branding_dark: assets/images/my-logo.png
-
-
-  android_12:
-
-    image: assets/images/splash.png
-
-    color: "#305C47"
-
-    icon_background_color: "#305C47"
-
-    branding: assets/images/my-logo.png
-
-
-    image_dark: assets/images/splash.png
-    color_dark: "#133D2F"
-    icon_background_color_dark: "#133D2F"
-    branding_dark: assets/images/my-logo.png
-
-
-  fullscreen: true
 
 
 

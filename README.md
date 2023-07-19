@@ -30,7 +30,6 @@ shared_preferences:
 get_it:     
 easy_localization:      
 flutter_phoenix:        
-flutter_native_splash:      
 flutter_bloc:       
 equatable:      
 flutter_screenutil:     
