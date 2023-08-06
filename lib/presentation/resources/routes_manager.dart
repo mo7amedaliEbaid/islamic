@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 
 import 'package:flutter/material.dart';
+import 'package:islamic/presentation/browseyoutube/view/browseyoutube_screen.dart';
 import 'package:islamic/presentation/pillars/view/pillars_screen.dart';
 import 'package:islamic/presentation/resources/strings_manager.dart';
 
 import '../../app/utils/di.dart';
-import '../browsenet/view/browsenet_screen.dart';
 import '../custom_adhkar/view/custom_adhkar_view.dart';
 import '../custom_adhkar/view/custom_dhikr_view.dart';
 import '../dhikr_builder/view/dhikr_builder_view.dart';
@@ -62,7 +62,7 @@ class RoutesGenerator {
       case Routes.pillarsRoute:
         return MaterialPageRoute(builder: (_) => PillarsScreen());
       case Routes.browsenetRoute:
-        return MaterialPageRoute(builder: (_) => BrowsenetScreen());
+        return MaterialPageRoute(builder: (_) => BrowseYoutubeScreen());
       default:
         return unDefinedRoute();
     }

@@ -1,6 +1,7 @@
 const String assetPath = "assets/";
 const String jsonPath = "assets/json";
 const String imagePath = "assets/images";
+const String pillarsPath = "assets/images/pillars";
 
 class ImageAsset {
   //Bot Nav Icons
@@ -9,6 +10,13 @@ class ImageAsset {
   static const String prayerIcon = "$imagePath/mosque-ic.svg";
   static const String adhkarIcon = "$imagePath/adhkar-ic.svg";
   static const String launcherIcon = "$imagePath/islamic_ic.png";
+  static List<String> pillarsimgd=[
+  "$pillarsPath/pillar1.png",
+  "$pillarsPath/pillar2.jpg",
+  "$pillarsPath/pillar3.png",
+  "$pillarsPath/pillar4.png",
+  "$pillarsPath/pillar5.jpeg",
+  ];
 }
 
 class JsonAsset {
