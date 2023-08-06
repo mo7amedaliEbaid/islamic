@@ -8,6 +8,7 @@ import '../../../app/utils/constants.dart';
 import '../../../app/utils/custom_search.dart';
 import '../../../app/utils/di.dart';
 import '../../../domain/models/quran/quran_model.dart';
+import '../../common/components/mydrawer.dart';
 import '../../resources/assets_manager.dart';
 import '../../resources/color_manager.dart';
 import '../../resources/font_manager.dart';
@@ -24,6 +25,7 @@ class HomeView extends StatelessWidget {
 
   HomeView({Key? key}) : super(key: key);
 
+  final _scaffoldKey = GlobalKey<ScaffoldState>();
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
@@ -37,6 +39,7 @@ class HomeView extends StatelessWidget {
           List<QuranModel> quranList = quranCubit.quranData;
           int currentIndex = cubit.currentIndex;
           return Scaffold(
+            key: _scaffoldKey,
             floatingActionButton: isThereABookMarkedPage == true &&
                     currentIndex == Constants.quranIndex
                 ? FloatingActionButton(
@@ -87,6 +90,13 @@ class HomeView extends StatelessWidget {
                     .titleLarge
                     ?.copyWith(color: ColorManager.gold),
               ),
+              leading: IconButton(
+                onPressed: () => _scaffoldKey.currentState?.openDrawer(),
+                icon: Icon(
+                  Icons.sort,
+                  size: AppSize.s20.r,
+                ),
+              ),
               actions: currentIndex == Constants.quranIndex
                   ? [
                       IconButton(
@@ -99,6 +109,7 @@ class HomeView extends StatelessWidget {
                     ]
                   : [],
             ),
+            drawer: MyDrawer(),
             bottomNavigationBar: BottomNavigationBar(
               selectedItemColor: ColorManager.gold,
               selectedIconTheme:

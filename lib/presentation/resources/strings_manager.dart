@@ -48,6 +48,8 @@ class AppStrings {
   static const String changeAppTheme = "change_app_theme";
   static const String developer = "developer";
   static const String profile = "profile";
+  static const String pillars = "pillars";
+  static const String browse = "browse";
 
   static const List<String> hadithsTitles = [
     "hadith_1",

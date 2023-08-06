@@ -8,6 +8,7 @@ class ImageAsset {
   static const String hadithIcon = "$imagePath/hadith-ic.svg";
   static const String prayerIcon = "$imagePath/mosque-ic.svg";
   static const String adhkarIcon = "$imagePath/adhkar-ic.svg";
+  static const String launcherIcon = "$imagePath/islamic_ic.png";
 }
 
 class JsonAsset {
