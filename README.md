@@ -1,5 +1,5 @@
 # Islamic app
-This is a flutter Islamic App with Complete Quran, Prayer time Api, Hadith and Azkar.
+This is a flutter Islamic App with Complete Quran, Prayer time Api, Hadith and Azka.
 
 # التطبيق الاسلامى
 هذا التطبيق الاسلامى يحتوى على القران كاملا،الاحاديث الاربعين النووية،مواقيت الصلاة،الاذكار،الادعية و اضافات اخرى. 
@@ -65,3 +65,9 @@ sqflite:
 </p>
 
 For more screen shots https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots
+
+## Video
+https://drive.google.com/drive/folders/1546LCIwSucQAZAG12C0LqKE_-8maxfmk?usp=sharing
+
+## APK 
+https://drive.google.com/drive/folders/1enRHAiv-j9GworDMwn0UOdExOXfc26E9?usp=sharing
