@@ -3,7 +3,7 @@ This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azk
 <br />
 <br />
 ##   التطبيق الاسلامى
-هذا التطبيق الاسلامى يحتوى على القران كاملا،الاحاديث الاربعين النووية،مواقيت الصلاة،الاذكار،الادعية و أركان الاسلام الخمسة.ي
+هذا التطبيق الاسلامى يحتوى على القران كاملا،الاحاديث الاربعين النووية،مواقيت الصلاة،الاذكار،الادعية و أركان الاسلام الخمسة.
 التطبيق يحتوى على اضافات عديدة منها تشغيل الفديوهات من اليوتيوب ، البحث عن اى كلمة فى القران ، تعدد اللغات و امكانية تفعيل الوضع الليلى و اضافات اخرى. 
 
 
@@ -20,9 +20,9 @@ This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azk
 - You can parse any youtube url and play the video in the app
 - Search any word in quran
 - Localization (Arabic, English)
--️ Multiple themes 
--️ Add bookmarks 
--️ Add Azkar
+- Multiple themes 
+- Add bookmarks 
+- Add Azkar
 
 ## Dependencies
 youtube_player_flutter:     
