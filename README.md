@@ -63,6 +63,9 @@ sqflite:
 <a href="https://youtu.be/GxJ1lFVL3W8"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png" width="170"></img></a>
 <br />
 
+### Download App
+<a href="https://github.com/mo7amedaliEbaid/islamic/releases/download/v1.0.0/islamic.apk"><img src="https://playerzon.com/asset/download.png" width="170"></img></a>
+
 ### Screen Shots
 Fore more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots)
 
@@ -81,5 +84,6 @@ Fore more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/52
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/azkharlight.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/haditheng.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/drawereng1.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/2072c2624b0f422a27cf8fc8791ee68a3e3df406/islamic_screenshots/hadithread.jpg" width="170" />
 </p>
 
