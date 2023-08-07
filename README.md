@@ -1,28 +1,32 @@
 # Islamic app
-This is a flutter Islamic App with Complete Quran, Prayer time Api, Hadith and Azka.
+This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azkar and Five Pillars of Islam. It has a many features such as playing youtube videos, search quran, multiple languages, multiple themes and much more...
+<br />
+<br />
+##   التطبيق الاسلامى
+هذا التطبيق الاسلامى يحتوى على القران كاملا،الاحاديث الاربعين النووية،مواقيت الصلاة،الاذكار،الادعية و أركان الاسلام الخمسة.ي
+التطبيق يحتوى على اضافات عديدة منها تشغيل الفديوهات من اليوتيوب ، البحث عن اى كلمة فى القران ، تعدد اللغات و امكانية تفعيل الوضع الليلى و اضافات اخرى. 
 
-# التطبيق الاسلامى
-هذا التطبيق الاسلامى يحتوى على القران كاملا،الاحاديث الاربعين النووية،مواقيت الصلاة،الاذكار،الادعية و اضافات اخرى. 
-
-## Architecture
-✔️ Clean Architecture
 
 ## State Management
-✔️ Bloc Pattern
+- Bloc 
 
-## Features and Components
-✔️ Complete Quran <br />
-✔️ Prayer time  <br />
-✔️ Hadith  <br />
-✔️ Azkar <br />
-✔️ Blocs <br />
-✔️ Search any word in quran <br />
-✔️ Localization (Arabic, English) <br />
-✔️ Multiple themes <br />
-✔️ Add bookmarks <br />
-✔️ Add Azkar <br />
+## Features
+- Complete Quran
+- Prayer times
+- Hadith
+-️ Azkar
+- Five pillars of islam
+- A list of youtube videos is provided
+- You can parse any youtube url and play the video in the app
+- Search any word in quran
+- Localization (Arabic, English)
+-️ Multiple themes 
+-️ Add bookmarks 
+-️ Add Azkar
 
 ## Dependencies
+youtube_player_flutter:     
+dots_indicator:         
 flutter_svg:        
 build_runner:       
 dartz:      
@@ -52,22 +56,22 @@ google_fonts:
 sqflite:        
 
 ## Screen Shots
+Fore more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots)
 
+<br />
 <p float="left">
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/hadithlight.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/hadithread.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/prayertimedark.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/quranlight.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/readquran1.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/search1.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/haditheng.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots/azkar1.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/5pillars.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/drawereng.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/permission.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/prayertimelight.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/quranlight.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/yotubevideos.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/youtubelist.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/youtubedark.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/searchdark1.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/quranlight1.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/azkharlight.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/haditheng.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/drawereng1.jpg" width="170" />
 </p>
 
-For more screen shots https://github.com/mo7amedaliEbaid/islamic/blob/16091b3e1e91a35e35a9ee950a6e03560c21a929/islamic_screenshots
-
-## Video
-https://drive.google.com/drive/folders/1546LCIwSucQAZAG12C0LqKE_-8maxfmk?usp=sharing
-
-## APK 
-https://drive.google.com/drive/folders/1enRHAiv-j9GworDMwn0UOdExOXfc26E9?usp=sharing
