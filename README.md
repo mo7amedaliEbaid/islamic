@@ -6,11 +6,13 @@ This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azk
 هذا التطبيق الاسلامى يحتوى على القران كاملا،الاحاديث الاربعين النووية،مواقيت الصلاة،الاذكار،الادعية و أركان الاسلام الخمسة.
 التطبيق يحتوى على اضافات عديدة منها تشغيل الفديوهات من اليوتيوب ، البحث عن اى كلمة فى القران ، تعدد اللغات و امكانية تفعيل الوضع الليلى و اضافات اخرى. 
 
+<br />
 
-## State Management
+### State Management
 - Bloc 
+<br />
 
-## Features
+### Features
 - Complete Quran
 - Prayer times
 - Hadith
@@ -23,8 +25,9 @@ This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azk
 - Multiple themes 
 - Add bookmarks 
 - Add Azkar
+<br />
 
-## Dependencies
+### Dependencies
 youtube_player_flutter:     
 dots_indicator:         
 flutter_svg:        
@@ -54,11 +57,13 @@ url_launcher:
 intl:       
 google_fonts:       
 sqflite:        
+<br />
 
-## Demo Video
+### Demo Video
 <a href="https://youtu.be/GxJ1lFVL3W8"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png" width="170"></img></a>
 <br />
-## Screen Shots
+
+### Screen Shots
 Fore more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots)
 
 <br />
