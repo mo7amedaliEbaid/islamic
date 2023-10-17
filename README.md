@@ -67,7 +67,7 @@ sqflite:
 <a href="https://github.com/mo7amedaliEbaid/islamic/releases/download/v1.0.0/islamic.apk"><img src="https://playerzon.com/asset/download.png" width="170"></img></a>
 
 ### Screen Shots
-Fore more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots)
+For more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots)
 
 <br />
 <p float="left">
