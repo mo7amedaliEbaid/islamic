@@ -53,8 +53,7 @@ internet_connection_checker:
 location:       
 geocoding:      
 wakelock:       
-url_launcher:       
-intl:       
+url_launcher:          
 google_fonts:       
 sqflite:        
 <br />
