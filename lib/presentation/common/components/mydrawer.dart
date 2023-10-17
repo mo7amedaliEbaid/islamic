@@ -5,7 +5,6 @@ import 'package:islamic/presentation/common/components/components.dart';
 import 'package:islamic/presentation/resources/assets_manager.dart';
 import 'package:islamic/presentation/resources/routes_manager.dart';
 import 'package:islamic/presentation/resources/strings_manager.dart';
-import 'package:islamic/presentation/resources/styles_manager.dart';
 import 'package:islamic/presentation/resources/values.dart';
 
 class MyDrawer extends StatelessWidget {

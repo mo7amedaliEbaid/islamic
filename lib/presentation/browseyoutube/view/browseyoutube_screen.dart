@@ -3,6 +3,7 @@ import 'dart:developer';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:islamic/app/utils/constants.dart';
 import 'package:islamic/presentation/browseyoutube/view/widget/videolist.dart';
 import 'package:islamic/presentation/resources/assets_manager.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -23,22 +24,13 @@ class _BrowseYoutubeScreenState extends State<BrowseYoutubeScreen> {
   bool _muted = false;
   bool _isPlayerReady = false;
 
-  final List<String> _ids = [
-    '2-foreSBTGU',
-    'uGV7LXTYp8E',
-    'BvEVRuIo_kA',
-    'QSKxs61aZ6w',
-    'qZrP0becumc',
-    'kFn64z09MWA',
-    'yEAmNisPOzk',
-    'OtAWQ03xUJQ',
-  ];
+
 
   @override
   void initState() {
     super.initState();
     _controller = YoutubePlayerController(
-      initialVideoId: _ids.first,
+      initialVideoId: Constants.videoIds.first,
       flags: const YoutubePlayerFlags(
         mute: false,
         autoPlay: true,
@@ -120,7 +112,7 @@ class _BrowseYoutubeScreenState extends State<BrowseYoutubeScreen> {
           },
           onEnded: (data) {
             _controller
-                .load(_ids[(_ids.indexOf(data.videoId) + 1) % _ids.length]);
+                .load(Constants.videoIds[(Constants.videoIds.indexOf(data.videoId) + 1) % Constants.videoIds.length]);
             _showSnackBar('Next Video Started!');
           },
         ),
@@ -133,9 +125,9 @@ class _BrowseYoutubeScreenState extends State<BrowseYoutubeScreen> {
                 fit: BoxFit.fitWidth,
               ),
             ),
-            title: const Text(
+            title:  Text(
               'Islamic',
-              style: TextStyle(color: Colors.white),
+              style: Theme.of(context).textTheme.bodyLarge,
             ),
             actions: [
               IconButton(
@@ -211,10 +203,10 @@ class _BrowseYoutubeScreenState extends State<BrowseYoutubeScreen> {
                         IconButton(
                           icon: const Icon(Icons.skip_previous),
                           onPressed: _isPlayerReady
-                              ? () => _controller.load(_ids[
-                          (_ids.indexOf(_controller.metadata.videoId) -
+                              ? () => _controller.load(Constants.videoIds[
+                          (Constants.videoIds.indexOf(_controller.metadata.videoId) -
                               1) %
-                              _ids.length])
+                              Constants.videoIds.length])
                               : null,
                         ),
                         IconButton(
@@ -252,10 +244,10 @@ class _BrowseYoutubeScreenState extends State<BrowseYoutubeScreen> {
                         IconButton(
                           icon: const Icon(Icons.skip_next),
                           onPressed: _isPlayerReady
-                              ? () => _controller.load(_ids[
-                          (_ids.indexOf(_controller.metadata.videoId) +
+                              ? () => _controller.load(Constants.videoIds[
+                          (Constants.videoIds.indexOf(_controller.metadata.videoId) +
                               1) %
-                              _ids.length])
+                              Constants.videoIds.length])
                               : null,
                         ),
                       ],

@@ -2,6 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:islamic/presentation/resources/assets_manager.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../../app/utils/constants.dart';
@@ -95,6 +96,9 @@ class SettingsScreen extends StatelessWidget {
               },
               context: context,
             ),
+            getSeparator(context),
+            SizedBox(height: AppSize.s35,),
+            Image.asset(ImageAsset.launcherIcon,height:AppSize.s190,)
           ],
         );
       },

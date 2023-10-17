@@ -41,7 +41,6 @@ dependencies:
   geocoding:
   wakelock:
   url_launcher:
-  intl:
   google_fonts:
   sqflite:
 

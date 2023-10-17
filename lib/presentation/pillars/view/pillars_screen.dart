@@ -1,5 +1,5 @@
 import 'package:dots_indicator/dots_indicator.dart';
-import 'package:easy_localization/easy_localization.dart';
+import 'package:easy_localization/easy_localization.dart' as localized;
 import 'package:flutter/material.dart';
 import 'package:islamic/presentation/resources/assets_manager.dart';
 import 'package:islamic/presentation/resources/font_manager.dart';
@@ -80,7 +80,7 @@ class _PillarsScreenState extends State<PillarsScreen> {
         Container(
           height: AppSize.s200 * 1.6,
           width: AppSize.s200 * 1.5,
-          child: Text(description, textAlign: TextAlign.justify),
+          child: Text(description, textAlign: TextAlign.justify,textDirection: TextDirection.rtl,),
         ),
       ],
     );

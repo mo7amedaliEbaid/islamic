@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islamic/app/utils/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 /// Creates list of video players
@@ -8,16 +9,7 @@ class VideoList extends StatefulWidget {
 }
 
 class _VideoListState extends State<VideoList> {
-  final List<YoutubePlayerController> _controllers = [
-    '2-foreSBTGU',
-    'uGV7LXTYp8E',
-    'BvEVRuIo_kA',
-    'QSKxs61aZ6w',
-    'qZrP0becumc',
-    'kFn64z09MWA',
-    'yEAmNisPOzk',
-    'OtAWQ03xUJQ',
-  ]
+  final List<YoutubePlayerController> _controllers = Constants.videoIds
       .map<YoutubePlayerController>(
         (videoId) => YoutubePlayerController(
       initialVideoId: videoId,
@@ -32,7 +24,7 @@ class _VideoListState extends State<VideoList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Islamic'),
+        title:  Text('Islamic',style: Theme.of(context).textTheme.bodyLarge,),
       ),
       body: ListView.separated(
         itemBuilder: (context, index) {

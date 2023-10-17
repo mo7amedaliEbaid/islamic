@@ -1,7 +1,7 @@
 
 import '../../domain/models/quran/quran_search_model.dart';
 
-class Constants {
+sealed class Constants {
   static const String empty = "";
   static const int zero = 0;
   static const int quranIndex = 0;
@@ -15,6 +15,17 @@ class Constants {
   static const String prayerTimingPath = "{date}?city={city}&country={country}";
   static const Duration timeOut = Duration(seconds: 60);
   static const String token = "SEND TOKEN HERE";
+
+  static const List<String> videoIds = [
+    '2-foreSBTGU',
+    'uGV7LXTYp8E',
+    'BvEVRuIo_kA',
+    'QSKxs61aZ6w',
+    'qZrP0becumc',
+    'kFn64z09MWA',
+    'yEAmNisPOzk',
+    'OtAWQ03xUJQ',
+  ];
 }
 
 (String, String) recordLocation = ("", "");
