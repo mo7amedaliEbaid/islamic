@@ -13,18 +13,19 @@ This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azk
 <br />
 
 ### Features
-- Complete Quran
-- Prayer times
-- Hadith and its explaination
-- Azkar
-- Five pillars of islam
-- A list of youtube videos is provided
-- You can parse any youtube url and play the video in the app
-- Search any word in quran
-- Localization (Arabic, English)
-- Multiple themes 
-- Add bookmarks 
-- Add Azkar
+- Clean Architecture.
+- Complete Quran.
+- Prayer times.
+- Hadith and its explaination.
+- Azkar.
+- Five pillars of islam.
+- A list of youtube videos is provided.
+- You can parse any youtube url and play the video in the app.
+- Search any word in quran.
+- Localization (Arabic, English).
+- Multiple themes.
+- Add bookmarks .
+- Add Azkar.
 <br />
 
 ### Dependencies
