@@ -76,9 +76,7 @@ For more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/523
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/permission.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/prayertimelight.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/quranlight.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/yotubevideos.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/youtubelist.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/youtubedark.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/searchdark1.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/quranlight1.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/azkharlight.jpg" width="170" />
