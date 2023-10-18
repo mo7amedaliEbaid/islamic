@@ -5,7 +5,7 @@ import 'package:geocoding/geocoding.dart';
 import 'package:location/location.dart' as location_package;
 
 import '../../../../../app/utils/constants.dart';
-import '../../../../../app/utils/di.dart';
+import '../../../../../di/di.dart';
 import '../../../../../data/network/network_info.dart';
 import '../../../../../domain/models/prayer_timings/prayer_timings_model.dart';
 import '../../../../../domain/usecase/get_prayer_timings_usecase.dart';

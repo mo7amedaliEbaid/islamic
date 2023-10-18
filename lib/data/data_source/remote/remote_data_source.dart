@@ -1,6 +1,6 @@
 
 
-import '../../../app/utils/di.dart';
+import '../../../di/di.dart';
 import '../../network/prayer_timings_api.dart';
 import '../../responses/prayer_timings/prayer_timings_response.dart';
 

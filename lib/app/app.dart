@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:islamic/app/utils/app_prefs.dart';
-import 'package:islamic/app/utils/di.dart';
+import 'package:islamic/di/di.dart';
 
 import '../presentation/custom_adhkar/cubit/custom_adhkar_cubit.dart';
 import '../presentation/home/cubit/home_cubit.dart';

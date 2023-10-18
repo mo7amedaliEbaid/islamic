@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../../app/utils/di.dart';
+import '../../../../../di/di.dart';
 import '../../../../../domain/models/hadith/hadith_model.dart';
 import '../../../../../domain/usecase/base_usecase.dart';
 import '../../../../../domain/usecase/hadith_usecase.dart';

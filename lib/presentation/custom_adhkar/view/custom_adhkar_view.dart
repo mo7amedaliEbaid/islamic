@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../app/utils/di.dart';
+import '../../../di/di.dart';
 import '../../../domain/models/adhkar/custom_adhkar_model.dart';
 import '../../common/components/components.dart';
 import '../../home/cubit/home_cubit.dart';

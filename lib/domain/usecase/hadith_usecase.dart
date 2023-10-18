@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 
 import '../../app/error/failure.dart';
-import '../../app/utils/di.dart';
+import '../../di/di.dart';
 import '../models/hadith/hadith_model.dart';
 import '../repository/repository.dart';
 import 'base_usecase.dart';

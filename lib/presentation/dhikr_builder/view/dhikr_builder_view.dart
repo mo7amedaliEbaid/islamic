@@ -5,7 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../app/utils/constants.dart';
-import '../../../app/utils/di.dart';
+import '../../../di/di.dart';
 import '../../../app/utils/functions.dart';
 import '../../../domain/models/adhkar/adhkar_model.dart';
 import '../../common/components/components.dart';

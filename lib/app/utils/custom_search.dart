@@ -17,7 +17,7 @@ import '../../presentation/resources/styles_manager.dart';
 import '../../presentation/resources/values.dart';
 import 'app_prefs.dart';
 import 'constants.dart';
-import 'di.dart';
+import '../../di/di.dart';
 
 class CustomSearch extends SearchDelegate<QuranSearchModel?> {
   final AppPreferences _preferences = instance<AppPreferences>();

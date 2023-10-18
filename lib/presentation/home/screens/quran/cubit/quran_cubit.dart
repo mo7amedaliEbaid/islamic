@@ -2,7 +2,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../../app/utils/constants.dart';
-import '../../../../../app/utils/di.dart';
+import '../../../../../di/di.dart';
 import '../../../../../domain/models/quran/quran_model.dart';
 import '../../../../../domain/models/quran/quran_search_model.dart';
 import '../../../../../domain/usecase/base_usecase.dart';

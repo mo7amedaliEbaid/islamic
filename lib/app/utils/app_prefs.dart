@@ -5,7 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../presentation/resources/language_manager.dart';
 import '../../presentation/resources/theme.dart';
-import 'di.dart';
+import '../../di/di.dart';
 
 const String prefsLangKey = "LANG_KEY";
 const String themeModeKey = "THEME_MODE_KEY";

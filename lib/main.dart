@@ -8,7 +8,7 @@ import 'package:islamic/presentation/resources/language_manager.dart';
 import 'package:wakelock/wakelock.dart';
 
 import 'app/app.dart';
-import 'app/utils/di.dart';
+import 'di/di.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

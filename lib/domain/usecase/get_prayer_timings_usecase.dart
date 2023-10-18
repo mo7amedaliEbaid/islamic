@@ -3,7 +3,7 @@ import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 
 import '../../app/error/failure.dart';
-import '../../app/utils/di.dart';
+import '../../di/di.dart';
 import '../models/prayer_timings/prayer_timings_model.dart';
 import '../repository/repository.dart';
 import 'base_usecase.dart';

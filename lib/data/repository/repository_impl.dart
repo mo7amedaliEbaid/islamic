@@ -4,7 +4,7 @@ import 'package:islamic/data/mapper/mapper.dart';
 
 import '../../app/error/exception.dart';
 import '../../app/error/failure.dart';
-import '../../app/utils/di.dart';
+import '../../di/di.dart';
 import '../../domain/models/adhkar/adhkar_model.dart';
 import '../../domain/models/adhkar/custom_adhkar_model.dart';
 import '../../domain/models/hadith/hadith_model.dart';

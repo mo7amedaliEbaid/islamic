@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../app/utils/di.dart';
+import '../../../di/di.dart';
 import '../../../domain/models/adhkar/custom_adhkar_model.dart';
 import '../../../domain/usecase/base_usecase.dart';
 import '../../../domain/usecase/del_all_custom_adhkar_usecase.dart';

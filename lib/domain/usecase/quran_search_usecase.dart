@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 
 
 import '../../app/error/failure.dart';
-import '../../app/utils/di.dart';
+import '../../di/di.dart';
 import '../models/quran/quran_search_model.dart';
 import '../repository/repository.dart';
 import 'base_usecase.dart';

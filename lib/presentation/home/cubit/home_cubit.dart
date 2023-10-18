@@ -8,7 +8,7 @@ import 'package:location/location.dart' as location_package;
 
 import '../../../app/utils/app_prefs.dart';
 import '../../../app/utils/constants.dart';
-import '../../../app/utils/di.dart';
+import '../../../di/di.dart';
 import '../../resources/strings_manager.dart';
 
 part 'home_state.dart';

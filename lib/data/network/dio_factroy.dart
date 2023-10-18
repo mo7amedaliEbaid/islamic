@@ -5,7 +5,7 @@ import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
 import '../../app/utils/app_prefs.dart';
 import '../../app/utils/constants.dart';
-import '../../app/utils/di.dart';
+import '../../di/di.dart';
 
 const String contentType = "content-type";
 const String applicationJson = "application/json";

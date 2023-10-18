@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../../app/utils/constants.dart';
-import '../../../../../app/utils/di.dart';
+import '../../../../../di/di.dart';
 import '../../../../../domain/models/adhkar/adhkar_model.dart';
 import '../../../../../domain/usecase/adhkar_usecase.dart';
 import '../../../../../domain/usecase/base_usecase.dart';
