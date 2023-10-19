@@ -13,18 +13,19 @@ This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azk
 <br />
 
 ### Features
-- Complete Quran
-- Prayer times
-- Hadith and its explaination
-- Azkar
-- Five pillars of islam
-- A list of youtube videos is provided
-- You can parse any youtube url and play the video in the app
-- Search any word in quran
-- Localization (Arabic, English)
-- Multiple themes 
-- Add bookmarks 
-- Add Azkar
+- Clean Architecture.
+- Complete Quran.
+- Prayer times.
+- Hadith and its explaination.
+- Azkar.
+- Five pillars of islam.
+- A list of youtube videos is provided.
+- You can parse any youtube url and play the video in the app.
+- Search any word in quran.
+- Localization (Arabic, English).
+- Multiple themes.
+- Add bookmarks .
+- Add Azkar.
 <br />
 
 ### Dependencies
@@ -75,9 +76,7 @@ For more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/523
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/permission.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/prayertimelight.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/quranlight.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/yotubevideos.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/youtubelist.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/youtubedark.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/searchdark1.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/quranlight1.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/azkharlight.jpg" width="170" />
