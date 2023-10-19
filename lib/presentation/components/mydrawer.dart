@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:islamic/presentation/common/components/components.dart';
+import 'package:islamic/presentation/components/separator.dart';
 import 'package:islamic/presentation/resources/assets_manager.dart';
 import 'package:islamic/presentation/resources/routes_manager.dart';
 import 'package:islamic/presentation/resources/strings_manager.dart';

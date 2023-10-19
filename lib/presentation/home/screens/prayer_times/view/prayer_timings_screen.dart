@@ -9,7 +9,7 @@ import 'package:islamic/app/utils/extensions.dart';
 
 import '../../../../../app/utils/constants.dart';
 import '../../../../../domain/models/prayer_timings/prayer_timings_model.dart';
-import '../../../../common/components/components.dart';
+import '../../../../components/separator.dart';
 import '../../../../resources/color_manager.dart';
 import '../../../../resources/font_manager.dart';
 import '../../../../resources/language_manager.dart';

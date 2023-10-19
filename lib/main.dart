@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
-import 'package:islamic/presentation/common/bloc_observer.dart';
 import 'package:islamic/presentation/resources/language_manager.dart';
 import 'package:wakelock/wakelock.dart';
 
 import 'app/app.dart';
+import 'bloc_observer.dart';
 import 'di/di.dart';
 
 void main() async {

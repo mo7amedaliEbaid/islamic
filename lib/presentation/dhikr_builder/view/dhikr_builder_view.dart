@@ -8,7 +8,7 @@ import '../../../app/utils/constants.dart';
 import '../../../di/di.dart';
 import '../../../app/utils/functions.dart';
 import '../../../domain/models/adhkar/adhkar_model.dart';
-import '../../common/components/components.dart';
+import '../../components/separator.dart';
 import '../../home/screens/adhkar/cubit/adhkar_cubit.dart';
 import '../../resources/assets_manager.dart';
 import '../../resources/color_manager.dart';

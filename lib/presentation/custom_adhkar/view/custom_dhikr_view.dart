@@ -6,7 +6,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../app/utils/functions.dart';
-import '../../common/components/components.dart';
+import '../../components/separator.dart';
 import '../../home/screens/adhkar/cubit/adhkar_cubit.dart';
 import '../../resources/assets_manager.dart';
 import '../../resources/color_manager.dart';

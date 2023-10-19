@@ -7,7 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../domain/models/quran/quran_model.dart';
 import '../../domain/models/quran/quran_search_model.dart';
-import '../../presentation/common/components/components.dart';
+import '../../presentation/components/separator.dart';
 import '../../presentation/home/screens/quran/cubit/quran_cubit.dart';
 import '../../presentation/resources/color_manager.dart';
 import '../../presentation/resources/font_manager.dart';

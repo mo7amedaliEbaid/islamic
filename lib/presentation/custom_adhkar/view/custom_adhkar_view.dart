@@ -7,7 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../di/di.dart';
 import '../../../domain/models/adhkar/custom_adhkar_model.dart';
-import '../../common/components/components.dart';
+import '../../components/separator.dart';
 import '../../home/cubit/home_cubit.dart';
 import '../../resources/color_manager.dart';
 import '../../resources/font_manager.dart';

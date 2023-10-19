@@ -5,9 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:islamic/presentation/resources/assets_manager.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../../../../../app/utils/constants.dart';
 import '../../../../../app/utils/functions.dart';
-import '../../../../common/components/components.dart';
+import '../../../../components/separator.dart';
 import '../../../../resources/color_manager.dart';
 import '../../../../resources/font_manager.dart';
 import '../../../../resources/strings_manager.dart';

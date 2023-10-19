@@ -8,7 +8,7 @@ import '../../../app/utils/constants.dart';
 import '../../../app/utils/custom_search.dart';
 import '../../../di/di.dart';
 import '../../../domain/models/quran/quran_model.dart';
-import '../../common/components/mydrawer.dart';
+import '../../components/mydrawer.dart';
 import '../../resources/assets_manager.dart';
 import '../../resources/color_manager.dart';
 import '../../resources/font_manager.dart';

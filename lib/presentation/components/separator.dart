@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../resources/values.dart';
+import '../resources/values.dart';
 
 Widget getSeparator(BuildContext context) {
   return Padding(

@@ -7,7 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:islamic/app/utils/extensions.dart';
 
 import '../../../../../domain/models/adhkar/adhkar_model.dart';
-import '../../../../common/components/components.dart';
+import '../../../../components/separator.dart';
 import '../../../../resources/color_manager.dart';
 import '../../../../resources/font_manager.dart';
 import '../../../../resources/routes_manager.dart';
