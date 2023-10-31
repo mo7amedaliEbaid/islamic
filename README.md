@@ -14,6 +14,8 @@ This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azk
 
 ### Features
 - Clean Architecture.
+- Dependency Injection.
+- Responsive Desgin (portrait/landscape).
 - Complete Quran.
 - Prayer times.
 - Hadith and its explaination.
@@ -26,6 +28,7 @@ This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azk
 - Multiple themes.
 - Add bookmarks .
 - Add Azkar.
+
 <br />
 
 ### Dependencies
@@ -60,11 +63,11 @@ sqflite:
 <br />
 
 ### Demo Video
-<a href="https://youtu.be/GxJ1lFVL3W8"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png" width="170"></img></a>
+<a href="https://youtu.be/GxJ1lFVL3W8"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png" width="100"></img></a>
 <br />
 
 ### Download App
-<a href="https://github.com/mo7amedaliEbaid/islamic/releases/download/v1.0.0/islamic.apk"><img src="https://playerzon.com/asset/download.png" width="170"></img></a>
+<a href="https://github.com/mo7amedaliEbaid/islamic/releases/download/v1.0.0/islamic.apk"><img src="https://playerzon.com/asset/download.png" width="120"></img></a>
 
 ### Screen Shots
 For more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots)
@@ -77,7 +80,7 @@ For more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/523
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/drawereng.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/permission.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/prayertimelight.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/b566b84719521bb430267794ee8b05db69b445bc/islamic_screenshots/prayerdark.jpg.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/b566b84719521bb430267794ee8b05db69b445bc/islamic_screenshots/prayerdark.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/quranlight.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/youtubelist.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/searchdark1.jpg" width="170" />
@@ -93,6 +96,6 @@ For more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/523
 
 <p float="left">
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/b566b84719521bb430267794ee8b05db69b445bc/islamic_screenshots/Screenshot_20231031_013247.jpg" width="370" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/b566b84719521bb430267794ee8b05db69b445bc/islamic_screenshots/Screenshot_20231031_013347.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/b566b84719521bb430267794ee8b05db69b445bc/islamic_screenshots/Screenshot_20231031_013714.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/b566b84719521bb430267794ee8b05db69b445bc/islamic_screenshots/Screenshot_20231031_013347.jpg" width="370" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/b566b84719521bb430267794ee8b05db69b445bc/islamic_screenshots/Screenshot_20231031_013714.jpg" width="370" />
 </p>
