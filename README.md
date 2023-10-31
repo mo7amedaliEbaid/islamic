@@ -9,7 +9,7 @@ This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azk
 <br />
 
 ### State Management
-- Bloc 
+- Cubit. 
 <br />
 
 ### Features
