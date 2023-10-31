@@ -5,8 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:islamic/app/utils/constants.dart';
 import 'package:islamic/presentation/browseyoutube/view/widget/videolist.dart';
-import 'package:islamic/presentation/resources/assets_manager.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+
+import '../../../app/resources/resources.dart';
 
 class BrowseYoutubeScreen extends StatefulWidget {
   @override

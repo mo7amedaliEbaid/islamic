@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
-import 'package:islamic/presentation/resources/language_manager.dart';
 import 'package:wakelock/wakelock.dart';
 
-import 'app/app.dart';
-import 'bloc_observer.dart';
+import 'app/resources/resources.dart';
+import 'core/app.dart';
+import 'core/bloc_observer.dart';
 import 'di/di.dart';
 
 void main() async {
@@ -17,10 +17,6 @@ void main() async {
   Wakelock.enable();
   Bloc.observer = MyBlocObserver();
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
-  SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]);
   runApp(
     EasyLocalization(
       supportedLocales: const [arabicLocale, englishLocale],

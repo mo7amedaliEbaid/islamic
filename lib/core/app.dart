@@ -5,14 +5,14 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:islamic/app/utils/app_prefs.dart';
 import 'package:islamic/di/di.dart';
 
+import '../app/resources/resources.dart';
 import '../presentation/custom_adhkar/cubit/custom_adhkar_cubit.dart';
 import '../presentation/home/cubit/home_cubit.dart';
 import '../presentation/home/screens/adhkar/cubit/adhkar_cubit.dart';
 import '../presentation/home/screens/hadith/cubit/hadith_cubit.dart';
 import '../presentation/home/screens/prayer_times/cubit/prayer_timings_cubit.dart';
 import '../presentation/home/screens/quran/cubit/quran_cubit.dart';
-import '../presentation/resources/routes_manager.dart';
-import '../presentation/resources/theme.dart';
+
 
 class MyApp extends StatefulWidget {
   const MyApp._internal();
@@ -37,7 +37,6 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-        designSize: const Size(360, 690),
         minTextAdapt: true,
         splitScreenMode: true,
         builder: (context, child) {
@@ -66,8 +65,7 @@ class _MyAppState extends State<MyApp> {
                   create: (BuildContext context) =>
                       instance<CustomAdhkarCubit>()..getAllCustomAdhkar()),
             ],
-            child: BlocConsumer<HomeCubit, HomeState>(
-              listener: (context, state) {},
+            child: BlocBuilder<HomeCubit, HomeState>(
               builder: (context, state) {
                 return MaterialApp(
                   debugShowCheckedModeBanner: false,

@@ -8,10 +8,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../../../app/utils/functions.dart';
 import '../../components/separator.dart';
 import '../../home/screens/adhkar/cubit/adhkar_cubit.dart';
-import '../../resources/assets_manager.dart';
-import '../../resources/color_manager.dart';
-import '../../resources/font_manager.dart';
-import '../../resources/values.dart';
+import '../../../app/resources/resources.dart';
+
 
 class CustomDhikrView extends StatelessWidget {
   final String customDhikrText;
@@ -28,8 +26,7 @@ class CustomDhikrView extends StatelessWidget {
         AdhkarCubit.get(context).resetCounter();
         return true;
       },
-      child: BlocConsumer<AdhkarCubit, AdhkarState>(
-        listener: (BuildContext context, state) {},
+      child: BlocBuilder<AdhkarCubit, AdhkarState>(
         builder: (BuildContext context, Object? state) {
           AdhkarCubit cubit = AdhkarCubit.get(context);
           int count = cubit.count;

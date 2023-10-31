@@ -1,17 +1,18 @@
 import 'package:easy_localization/easy_localization.dart';
 
 import 'package:flutter/material.dart';
+import 'package:islamic/app/resources/strings_manager.dart';
 import 'package:islamic/presentation/browseyoutube/view/browseyoutube_screen.dart';
 import 'package:islamic/presentation/pillars/view/pillars_screen.dart';
-import 'package:islamic/presentation/resources/strings_manager.dart';
 
 import '../../di/di.dart';
-import '../custom_adhkar/view/custom_adhkar_view.dart';
-import '../custom_adhkar/view/custom_dhikr_view.dart';
-import '../dhikr_builder/view/dhikr_builder_view.dart';
-import '../hadith_builder/view/hadith_builder_view.dart';
-import '../home/view/home_view.dart';
-import '../surah_builder/view/surah_builder_view.dart';
+import '../../presentation/custom_adhkar/view/custom_adhkar_view.dart';
+import '../../presentation/custom_adhkar/view/custom_dhikr_view.dart';
+import '../../presentation/dhikr_builder/view/dhikr_builder_view.dart';
+import '../../presentation/hadith_builder/view/hadith_builder_view.dart';
+import '../../presentation/home/view/home_view.dart';
+import '../../presentation/surah_builder/view/surah_builder_view.dart';
+
 
 class Routes {
   static const String dashboardRoute = "/";

@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:islamic/app/utils/extensions.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../presentation/resources/language_manager.dart';
-import '../../presentation/resources/theme.dart';
+
 import '../../di/di.dart';
+import '../resources/resources.dart';
 
 const String prefsLangKey = "LANG_KEY";
 const String themeModeKey = "THEME_MODE_KEY";

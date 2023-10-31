@@ -10,11 +10,8 @@ import '../../../domain/models/quran/quran_model.dart';
 import '../../components/separator.dart';
 import '../../home/cubit/home_cubit.dart';
 import '../../home/screens/quran/cubit/quran_cubit.dart';
-import '../../resources/color_manager.dart';
-import '../../resources/font_manager.dart';
-import '../../resources/language_manager.dart';
-import '../../resources/strings_manager.dart';
-import '../../resources/values.dart';
+import '../../../../../app/resources/resources.dart';
+
 
 class SurahBuilderView extends StatelessWidget {
   final List<QuranModel> quranList;
@@ -32,8 +29,7 @@ class SurahBuilderView extends StatelessWidget {
             await HomeCubit.get(context).isThereABookMarked();
         return true;
       },
-      child: BlocConsumer<QuranCubit, QuranState>(
-        listener: (context, state) {},
+      child: BlocBuilder<QuranCubit, QuranState>(
         builder: (context, state) {
           QuranCubit cubit = QuranCubit.get(context);
           HomeCubit homeCubit = HomeCubit.get(context);

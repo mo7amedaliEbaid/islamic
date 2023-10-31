@@ -10,11 +10,8 @@ import 'package:islamic/app/utils/extensions.dart';
 import '../../../../../app/utils/constants.dart';
 import '../../../../../domain/models/prayer_timings/prayer_timings_model.dart';
 import '../../../../components/separator.dart';
-import '../../../../resources/color_manager.dart';
-import '../../../../resources/font_manager.dart';
-import '../../../../resources/language_manager.dart';
-import '../../../../resources/strings_manager.dart';
-import '../../../../resources/values.dart';
+import '../../../../../app/resources/resources.dart';
+
 import '../cubit/prayer_timings_cubit.dart';
 
 class PrayerTimingsScreen extends StatelessWidget {
@@ -22,8 +19,7 @@ class PrayerTimingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<PrayerTimingsCubit, PrayerTimingsState>(
-      listener: (BuildContext context, state) {},
+    return BlocBuilder<PrayerTimingsCubit, PrayerTimingsState>(
       builder: (context, state) {
         PrayerTimingsCubit cubit = PrayerTimingsCubit.get(context);
         PrayerTimingsModel prayerTimingsModel = cubit.prayerTimingsModel;
@@ -65,58 +61,60 @@ class PrayerTimingsScreen extends StatelessWidget {
             prayerTimingsModel.data!.timings!.maghrib.convertTo12HourFormat(),
             prayerTimingsModel.data!.timings!.isha.convertTo12HourFormat(),
           ];
-          return Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Padding(
-                padding: EdgeInsets.symmetric(vertical: AppSize.s5.h),
-                child: Text(
-                  isEnglish
-                      ? prayerTimingsModel.data!.date!.gregorian!.weekday!.en
-                      : prayerTimingsModel.data!.date!.hijri!.weekday!.ar,
-                  style: Theme.of(context).textTheme.displayMedium,
+          return SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: AppSize.s5.h),
+                  child: Text(
+                    isEnglish
+                        ? prayerTimingsModel.data!.date!.gregorian!.weekday!.en
+                        : prayerTimingsModel.data!.date!.hijri!.weekday!.ar,
+                    style: Theme.of(context).textTheme.displayMedium,
+                  ),
                 ),
-              ),
-              isEnglish
-                  ? Text(
-                      "${prayerTimingsModel.data!.date!.hijri!.day} ${prayerTimingsModel.data!.date!.hijri!.month!.en} ${prayerTimingsModel.data!.date!.hijri!.year}",
-                      style: GoogleFonts.sourceSansPro(),
-                      textAlign: TextAlign.start,
-                      textDirection: ui.TextDirection.ltr,
-                    )
-                  : Text(
-                      "${prayerTimingsModel.data!.date!.hijri!.day} ${prayerTimingsModel.data!.date!.hijri!.month!.ar} ${prayerTimingsModel.data!.date!.hijri!.year}",
-                      style: Theme.of(context).textTheme.bodyLarge,
-                    ),
-              Padding(
-                padding: EdgeInsets.symmetric(vertical: AppSize.s5.h),
-                child: Text(
-                  prayerTimingsModel.data!.date!.gregorian!.date,
-                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Theme.of(context).unselectedWidgetColor),
+                isEnglish
+                    ? Text(
+                        "${prayerTimingsModel.data!.date!.hijri!.day} ${prayerTimingsModel.data!.date!.hijri!.month!.en} ${prayerTimingsModel.data!.date!.hijri!.year}",
+                        style: GoogleFonts.sourceSansPro(),
+                        textAlign: TextAlign.start,
+                        textDirection: ui.TextDirection.ltr,
+                      )
+                    : Text(
+                        "${prayerTimingsModel.data!.date!.hijri!.day} ${prayerTimingsModel.data!.date!.hijri!.month!.ar} ${prayerTimingsModel.data!.date!.hijri!.year}",
+                        style: Theme.of(context).textTheme.bodyLarge,
+                      ),
+                Padding(
+                  padding: EdgeInsets.symmetric(vertical: AppSize.s5.h),
+                  child: Text(
+                    prayerTimingsModel.data!.date!.gregorian!.date,
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Theme.of(context).unselectedWidgetColor),
+                  ),
                 ),
-              ),
-              Center(
-                child: Column(
-                  // mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Column(
-                      children: [
-                        for (var index = 0;
-                            index < Constants.prayerNumbers;
-                            index++)
-                          _prayerIndexItem(
-                              isEnglish: isEnglish,
-                              context: context,
-                              timings: timings,
-                              prayerTimingsModel: prayerTimingsModel,
-                              index: index)
-                      ],
-                    ),
-                  ],
+                Center(
+                  child: Column(
+                    // mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Column(
+                        children: [
+                          for (var index = 0;
+                              index < Constants.prayerNumbers;
+                              index++)
+                            _prayerIndexItem(
+                                isEnglish: isEnglish,
+                                context: context,
+                                timings: timings,
+                                prayerTimingsModel: prayerTimingsModel,
+                                index: index)
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           );
         } else {
           if (!isConnected) {

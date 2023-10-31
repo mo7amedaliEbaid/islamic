@@ -9,13 +9,8 @@ import '../../../app/utils/custom_search.dart';
 import '../../../di/di.dart';
 import '../../../domain/models/quran/quran_model.dart';
 import '../../components/mydrawer.dart';
-import '../../resources/assets_manager.dart';
-import '../../resources/color_manager.dart';
-import '../../resources/font_manager.dart';
-import '../../resources/routes_manager.dart';
-import '../../resources/strings_manager.dart';
-import '../../resources/styles_manager.dart';
-import '../../resources/values.dart';
+import '../../../../../app/resources/resources.dart';
+
 import '../cubit/home_cubit.dart';
 import '../screens/quran/cubit/quran_cubit.dart';
 import '../viewmodel/home_viewmodel.dart';
@@ -30,8 +25,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) => instance<HomeCubit>()..isThereABookMarked(),
-      child: BlocConsumer<HomeCubit, HomeState>(
-        listener: (context, state) {},
+      child: BlocBuilder<HomeCubit, HomeState>(
         builder: (context, state) {
           var cubit = HomeCubit.get(context);
           bool darkMode = cubit.darkModeOn(context);

@@ -9,7 +9,7 @@ import '../../../../../di/di.dart';
 import '../../../../../data/network/network_info.dart';
 import '../../../../../domain/models/prayer_timings/prayer_timings_model.dart';
 import '../../../../../domain/usecase/get_prayer_timings_usecase.dart';
-import '../../../../resources/strings_manager.dart';
+import '../../../../../app/resources/resources.dart';
 
 part 'prayer_timings_state.dart';
 

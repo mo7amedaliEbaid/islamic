@@ -7,12 +7,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../../domain/models/quran/quran_model.dart';
 import '../../../../components/separator.dart';
-import '../../../../resources/color_manager.dart';
-import '../../../../resources/font_manager.dart';
-import '../../../../resources/language_manager.dart';
-import '../../../../resources/routes_manager.dart';
-import '../../../../resources/strings_manager.dart';
-import '../../../../resources/values.dart';
+import '../../../../../app/resources/resources.dart';
+
 import '../cubit/quran_cubit.dart';
 
 class QuranScreen extends StatelessWidget {
@@ -20,8 +16,7 @@ class QuranScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<QuranCubit, QuranState>(
-      listener: (context, state) {},
+    return BlocBuilder<QuranCubit, QuranState>(
       builder: (context, state) {
         QuranCubit cubit = QuranCubit.get(context);
         List<QuranModel> quranList = cubit.quranData;

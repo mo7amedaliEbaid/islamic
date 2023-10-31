@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 import '../../app/error/failure.dart';
-import '../../presentation/resources/strings_manager.dart';
+import '../../app/resources/resources.dart';
 
 
 class ErrorHandler implements Exception {

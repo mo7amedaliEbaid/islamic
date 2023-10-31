@@ -2,15 +2,12 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:islamic/presentation/resources/assets_manager.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../../app/utils/functions.dart';
 import '../../../../components/separator.dart';
-import '../../../../resources/color_manager.dart';
-import '../../../../resources/font_manager.dart';
-import '../../../../resources/strings_manager.dart';
-import '../../../../resources/values.dart';
+import '../../../../../app/resources/resources.dart';
+
 import '../../../cubit/home_cubit.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -18,8 +15,7 @@ class SettingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<HomeCubit, HomeState>(
-      listener: (context, state) {},
+    return BlocBuilder<HomeCubit, HomeState>(
       builder: (context, state) {
         var cubit = HomeCubit.get(context);
         bool darkMode = cubit.darkModeOn(context);

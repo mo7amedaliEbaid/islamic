@@ -2,7 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 
 import 'package:flutter/material.dart';
 
-import '../../resources/strings_manager.dart';
+import '../../../../../app/resources/resources.dart';
 import '../screens/adhkar/view/adhkar_screen.dart';
 import '../screens/hadith/view/hadith_screen.dart';
 import '../screens/prayer_times/view/prayer_timings_screen.dart';

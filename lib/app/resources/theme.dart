@@ -1,8 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:islamic/presentation/resources/styles_manager.dart';
-import 'package:islamic/presentation/resources/values.dart';
+import 'package:islamic/app/resources/styles_manager.dart';
+import 'package:islamic/app/resources/values.dart';
+
 
 import 'color_manager.dart';
 import 'font_manager.dart';

@@ -9,12 +9,8 @@ import '../../domain/models/quran/quran_model.dart';
 import '../../domain/models/quran/quran_search_model.dart';
 import '../../presentation/components/separator.dart';
 import '../../presentation/home/screens/quran/cubit/quran_cubit.dart';
-import '../../presentation/resources/color_manager.dart';
-import '../../presentation/resources/font_manager.dart';
-import '../../presentation/resources/routes_manager.dart';
-import '../../presentation/resources/strings_manager.dart';
-import '../../presentation/resources/styles_manager.dart';
-import '../../presentation/resources/values.dart';
+import '../resources/resources.dart';
+
 import 'app_prefs.dart';
 import 'constants.dart';
 import '../../di/di.dart';

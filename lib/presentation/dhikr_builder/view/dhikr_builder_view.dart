@@ -10,12 +10,8 @@ import '../../../app/utils/functions.dart';
 import '../../../domain/models/adhkar/adhkar_model.dart';
 import '../../components/separator.dart';
 import '../../home/screens/adhkar/cubit/adhkar_cubit.dart';
-import '../../resources/assets_manager.dart';
-import '../../resources/color_manager.dart';
-import '../../resources/font_manager.dart';
-import '../../resources/language_manager.dart';
-import '../../resources/strings_manager.dart';
-import '../../resources/values.dart';
+import '../../../app/resources/resources.dart';
+
 
 class DhikrBuilderView extends StatelessWidget {
   final List<AdhkarModel> adhkarList;
@@ -32,8 +28,7 @@ class DhikrBuilderView extends StatelessWidget {
         AdhkarCubit.get(context).resetCounter();
         return true;
       },
-      child: BlocConsumer<AdhkarCubit, AdhkarState>(
-        listener: (context, state) {},
+      child: BlocBuilder<AdhkarCubit, AdhkarState>(
         builder: (context, state) {
           AdhkarCubit cubit = AdhkarCubit.get(context);
 

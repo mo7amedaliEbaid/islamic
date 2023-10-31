@@ -6,12 +6,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../../domain/models/hadith/hadith_model.dart';
 import '../../../../components/separator.dart';
-import '../../../../resources/color_manager.dart';
-import '../../../../resources/font_manager.dart';
-import '../../../../resources/language_manager.dart';
-import '../../../../resources/routes_manager.dart';
-import '../../../../resources/strings_manager.dart';
-import '../../../../resources/values.dart';
+import '../../../../../app/resources/resources.dart';
+
 import '../cubit/hadith_cubit.dart';
 
 class HadithScreen extends StatelessWidget {
@@ -19,8 +15,7 @@ class HadithScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<HadithCubit, HadithState>(
-      listener: (context, state) {},
+    return BlocBuilder<HadithCubit, HadithState>(
       builder: (context, state) {
         HadithCubit cubit = HadithCubit.get(context);
         List<HadithModel> hadithList = cubit.hadithList;

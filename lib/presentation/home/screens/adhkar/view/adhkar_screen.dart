@@ -6,12 +6,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:islamic/app/utils/extensions.dart';
 
+import '../../../../../app/resources/resources.dart';
 import '../../../../../domain/models/adhkar/adhkar_model.dart';
 import '../../../../components/separator.dart';
-import '../../../../resources/color_manager.dart';
-import '../../../../resources/font_manager.dart';
-import '../../../../resources/routes_manager.dart';
-import '../../../../resources/values.dart';
+
 import '../cubit/adhkar_cubit.dart';
 
 class AdhkarScreen extends StatelessWidget {
@@ -19,8 +17,7 @@ class AdhkarScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<AdhkarCubit, AdhkarState>(
-      listener: (context, state) {},
+    return BlocBuilder<AdhkarCubit, AdhkarState>(
       builder: (context, state) {
         AdhkarCubit cubit = AdhkarCubit.get(context);
         List<AdhkarModel> adhkarList = cubit.adhkarList;

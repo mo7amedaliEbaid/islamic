@@ -4,8 +4,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:islamic/app/utils/extensions.dart';
 
 import '../../domain/models/quran/quran_model.dart';
-import '../../presentation/resources/font_manager.dart';
-import '../../presentation/resources/values.dart';
+import '../resources/resources.dart';
+
 
 Future<String> fetchDataFromJson(String jsonPath) async {
   String jsonString = await rootBundle.loadString(jsonPath);

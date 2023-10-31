@@ -1,10 +1,8 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:easy_localization/easy_localization.dart' as localized;
 import 'package:flutter/material.dart';
-import 'package:islamic/presentation/resources/assets_manager.dart';
-import 'package:islamic/presentation/resources/font_manager.dart';
-import 'package:islamic/presentation/resources/strings_manager.dart';
-import 'package:islamic/presentation/resources/values.dart';
+import '../../../../../app/resources/resources.dart';
+
 
 class PillarsScreen extends StatefulWidget {
   PillarsScreen({Key? key}) : super(key: key);
@@ -67,22 +65,28 @@ class _PillarsScreenState extends State<PillarsScreen> {
   }
 
   _buildpillarview({required String image, required String description}) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
-      children: [
-        Container(
-          height: AppSize.s200 * 1.3,
-          width: AppSize.s200 * 1.5,
-          decoration: BoxDecoration(
-              image:
-                  DecorationImage(image: AssetImage(image), fit: BoxFit.fill)),
-        ),
-        Container(
-          height: AppSize.s200 * 1.6,
-          width: AppSize.s200 * 1.5,
-          child: Text(description, textAlign: TextAlign.justify,textDirection: TextDirection.rtl,),
-        ),
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          Container(
+            height: AppSize.s200 * 1.3,
+            width: AppSize.s200 * 1.5,
+            decoration: BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage(image), fit: BoxFit.fill)),
+          ),
+          Container(
+            height: AppSize.s200 * 1.6,
+            width: AppSize.s200 * 1.5,
+            child: Text(
+              description,
+              textAlign: TextAlign.justify,
+              textDirection: TextDirection.rtl,
+            ),
+          ),
+        ],
+      ),
     );
   }
 

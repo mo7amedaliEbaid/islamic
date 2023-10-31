@@ -9,11 +9,8 @@ import '../../../di/di.dart';
 import '../../../domain/models/adhkar/custom_adhkar_model.dart';
 import '../../components/separator.dart';
 import '../../home/cubit/home_cubit.dart';
-import '../../resources/color_manager.dart';
-import '../../resources/font_manager.dart';
-import '../../resources/routes_manager.dart';
-import '../../resources/strings_manager.dart';
-import '../../resources/values.dart';
+import '../../../app/resources/resources.dart';
+
 import '../cubit/custom_adhkar_cubit.dart';
 
 class CustomAdhkarView extends StatelessWidget {
