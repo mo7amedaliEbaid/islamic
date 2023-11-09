@@ -24,6 +24,7 @@ abstract class Repository {
     String country,
   );
 
+
   //Database
   Future<Either<Failure, List<CustomAdhkarEntity>>> getAllCustomAdhkar();
 

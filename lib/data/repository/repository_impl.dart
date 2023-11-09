@@ -11,6 +11,7 @@ import '../../domain/models/hadith/hadith_model.dart';
 import '../../domain/models/prayer_timings/prayer_timings_model.dart';
 import '../../domain/models/quran/quran_model.dart';
 import '../../domain/models/quran/quran_search_model.dart';
+import '../../domain/models/video/video.dart';
 import '../../domain/repository/repository.dart';
 import '../data_source/local/local_data_source.dart';
 import '../data_source/remote/remote_data_source.dart';
@@ -153,4 +154,5 @@ class RepositoryImpl implements Repository {
       return Left(LocalFailure(null, failure.message));
     }
   }
+
 }

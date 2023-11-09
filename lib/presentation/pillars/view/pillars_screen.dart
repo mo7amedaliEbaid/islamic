@@ -70,12 +70,14 @@ class _PillarsScreenState extends State<PillarsScreen> {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Container(
+            margin: EdgeInsets.only(bottom: AppPadding.p16),
             height: AppSize.s200 * 1.3,
             width: AppSize.s200 * 1.5,
             decoration: BoxDecoration(
                 image: DecorationImage(
                     image: AssetImage(image), fit: BoxFit.fill)),
           ),
+
           Container(
             height: AppSize.s200 * 1.6,
             width: AppSize.s200 * 1.5,
