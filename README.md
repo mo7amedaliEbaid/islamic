@@ -73,7 +73,9 @@ For more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/523
 
 <br />
 <p float="left">
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/5pillars.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/0519b5e0d4021f2ce2110c5db345b095d75884ef/islamic_screenshots/Screenshot_20231109_165850.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/0519b5e0d4021f2ce2110c5db345b095d75884ef/islamic_screenshots/readqurandark.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/0519b5e0d4021f2ce2110c5db345b095d75884ef/islamic_screenshots/readquran1.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/drawereng.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/permission.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/prayertimelight.jpg" width="170" />
@@ -86,7 +88,9 @@ For more screen shots [Here](https://github.com/mo7amedaliEbaid/islamic/blob/523
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/haditheng.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/5236b4010cb4f9b09eeef87f444d11b23e418654/islamic_screenshots/drawereng1.jpg" width="170" />
    <img src="https://github.com/mo7amedaliEbaid/islamic/blob/2072c2624b0f422a27cf8fc8791ee68a3e3df406/islamic_screenshots/hadithread.jpg" width="170" />
-   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/6eb20f90068a3c66d2cf21d37d33e277ab1b313b/islamic_screenshots/settings.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/0519b5e0d4021f2ce2110c5db345b095d75884ef/islamic_screenshots/Screenshot_20231109_165621.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/0519b5e0d4021f2ce2110c5db345b095d75884ef/islamic_screenshots/adddkireng.jpg" width="170" />
+   <img src="https://github.com/mo7amedaliEbaid/islamic/blob/0519b5e0d4021f2ce2110c5db345b095d75884ef/islamic_screenshots/azkharadded.jpg" width="170" />
 </p>
 
 ##### Landscape 
