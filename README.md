@@ -48,8 +48,8 @@ conditional_builder_null_safety:
 json_serializable:      
 json_annotation:        
 floor:      
-floor_generator:
-sqlite3_flutter_libs:
+floor_generator:         
+sqlite3_flutter_libs:           
 retrofit:       
 retrofit_generator:     
 dio:        
