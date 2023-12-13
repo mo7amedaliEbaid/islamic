@@ -1,16 +1,16 @@
 # Islamic app
 This is a flutter Islamic App with Complete Quran, Prayer times Api, Hadith, Azkar and Five Pillars of Islam. It has many features such as playing youtube videos, search quran, multiple languages, multiple themes and much more...
 <br />
-<br />
+
 ##   التطبيق الاسلامى
 هذا التطبيق الاسلامى يحتوى على القران كاملا،الاحاديث الاربعين النووية،مواقيت الصلاة،الاذكار،الادعية و أركان الاسلام الخمسة.
 التطبيق يحتوى على اضافات عديدة منها تشغيل الفديوهات من اليوتيوب ، البحث عن اى كلمة فى القران ، تعدد اللغات و امكانية تفعيل الوضع الليلى و اضافات اخرى. 
 
-<br />
+
 
 ### State Management
 - Cubit. 
-<br />
+
 
 ### Features
 - Clean Architecture.
