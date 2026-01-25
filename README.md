@@ -156,3 +156,29 @@ Follow these steps to get started with the app:
 1. Clone the repository.
 2. Install dependencies using the provided `pubspec.yaml` file.
 3. Run the app on your Flutter-compatible device.
+
+## Run Guidelines
+
+To ensure compatibility, this project requires **Flutter 3.10.6**.
+
+### 1. Download Flutter SDK (Version 3.10.6)
+
+| OS      | Download Link |
+| :------ | :------------ |
+| **macOS** | [flutter_macos_3.10.6-stable.zip](https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.10.6-stable.zip) |
+| **Windows** | [flutter_windows_3.10.6-stable.zip](https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.10.6-stable.zip) |
+| **Linux** | [flutter_linux_3.10.6-stable.tar.xz](https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.10.6-stable.tar.xz) |
+
+### 2. Setup & Run
+1.  Download and extract the Flutter SDK to a location of your choice.
+2.  Run the app using the absolute path to this specific Flutter version:
+
+```bash
+# macOS / Linux
+<path-to-flutter-sdk>/bin/flutter run
+
+# Windows (Command Prompt / PowerShell)
+<path-to-flutter-sdk>\bin\flutter run
+```
+
+*Note: You may also need to configure `android/local.properties` to point `flutter.sdk` to this specific version.*
